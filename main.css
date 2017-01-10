@@ -1,0 +1,107 @@
+body{
+    background-image: url("img/main-bg.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 743px;
+    font-family: Tw Cen MT;
+    color: white;
+}
+.nav{
+  top:-60px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.mainTitle{
+  font-size: 4em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:170px;
+}
+.subTitle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  font-size: 1.5em;
+}
+.whiteCircle{
+content: url(http://i.imgur.com/pJ2wo4Y.png);
+width:80px;
+height:80px;
+display:block;
+margin: 0 auto;
+position: relative;
+top: 120px;
+z-index: 1;
+}
+.arrow{
+content: url(http://worldartsme.com/images/skinny-down-arrow-clipart-1.jpg);
+width:13px;
+height:33px;
+display:block;
+filter: opacity(50%);
+margin: 0 auto;
+position: relative;
+top: 63px;
+z-index: 100;
+}
+.ham{
+  content: url(http://www.insiidetrack.com/assets/MenuBut.png);
+  visibility: hidden;
+  display: block;
+  position:fixed;
+  top: 20px;
+  left: 20px;
+  width: 55px;
+  height:ddfsggsdf55px;
+  filter: invert(100%);
+
+
+}
+.twat{
+  content: url(https://gnip.com/images/icon-twitter.png);
+  visibility: hidden;
+  position:fixed;
+  display: inline-block;
+  width: 40px;
+  height:40px;
+  float: right;
+  top: 30px;
+  right:120px;
+}
+.f{
+
+content: url(http://www.i2symbol.com/images/abc-123/f/latin_small_letter_f_with_hook_u0192_icon_256x256.png);
+visibility: hidden;
+position:fixed;
+display: inline-block;
+filter: invert(100%);
+width: 40px;
+height:40px;
+float: right;
+top: 30px;
+right: 40px;
+}
+@media (max-width: 715px) {
+          div.nav{
+            visibility: hidden;
+          }
+          div.ham{
+            visibility: visible;
+          }
+          div.twat{
+            visibility: visible;
+          }
+          div.f{
+            visibility: visible;
+          }
+
+
+
+}
