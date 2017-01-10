@@ -1,6 +1,7 @@
 body{
     background-image: url("img/main-bg.jpeg");
     background-repeat:no-repeat;
+    background-position: center;
     background-size: cover;
     height: 743px;
     font-family: Tw Cen MT;
