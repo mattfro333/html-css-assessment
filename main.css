@@ -1,12 +1,13 @@
 body{
     background-image: url("img/main-bg.jpeg");
-    background-repeat:no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 743px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     font-family: Tw Cen MT;
+
     color: white;
 }
+
 .nav{
   top:-60px;
   display:flex;
@@ -21,14 +22,14 @@ body{
   justify-content: center;
   align-items: center;
   position: relative;
-  top:170px;
+  top:280px;
 }
 .subTitle{
   display:flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 20px;
+  top: 130px;
   font-size: 1.5em;
 }
 .whiteCircle{
@@ -38,7 +39,7 @@ height:80px;
 display:block;
 margin: 0 auto;
 position: relative;
-top: 120px;
+top: 300px;
 z-index: 1;
 }
 .arrow{
@@ -49,7 +50,7 @@ display:block;
 filter: opacity(50%);
 margin: 0 auto;
 position: relative;
-top: 63px;
+top: 245px;
 z-index: 100;
 }
 .ham{
@@ -102,7 +103,5 @@ right: 40px;
           div.f{
             visibility: visible;
           }
-
-
 
 }
