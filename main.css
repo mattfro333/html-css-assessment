@@ -1,0 +1,105 @@
+ body{
+   background-image: url("img/main-bg.jpeg");
+   background-repeat:no-repeat;
+   background-size: cover;
+   height: 743px;
+   font-family: Tw Cen MT;
+
+
+ }
+.nav{
+  margin-top: -10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+ h1{
+   color: white;
+ }
+ .mainTitle{
+   position:relative;
+   top:135px;
+   font-size: 4em;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+ }
+ .subTitle{
+   position:relative;
+   margin-top: -13px;
+   font-size: 1.5em;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+ }
+  .whiteCircle{
+  content: url(http://i.imgur.com/pJ2wo4Y.png);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 89px;
+  display: block;
+ margin: 0 auto;
+ z-index: 1;
+
+  }
+  .arrow{
+    content: url(http://worldartsme.com/images/skinny-down-arrow-clipart-1.jpg);
+    width: 20px;
+    height: 40px;
+    position: relative;
+    display: block;
+    filter: opacity(50%);
+   margin: 0 auto;
+   z-index: 100;
+   top:23px;
+  }
+  .ham{
+    content: url(http://www.insiidetrack.com/assets/MenuBut.png);
+    filter:invert(100%);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width:60px;
+    height: 60px;
+    visibility:hidden;
+  }
+  .twit{
+    content: url(https://gnip.com/images/icon-twitter.png);
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+    float:right;
+    display: inline-flex;
+    position: fixed;
+    top: 30px;
+    right: 170px;
+
+  }
+    .f{
+      content: url(http://www.i2symbol.com/images/abc-123/f/latin_small_letter_f_with_hook_u0192_icon_256x256.png);
+      width: 35px;
+      height: 35px;
+      visibility: hidden;
+      float:right;
+      filter: invert(100%);
+      display: inline-flex;
+      position: fixed;
+      top: 34px;
+      right:90px;
+    }
+  @media (max-width: 715px) {
+    div.nav{
+    visibility:hidden;
+    }
+    div.ham {
+      visibility: visible;
+    }
+    div.twit {
+        visibility: visible;
+    }
+    div.f {
+      visibility: visible;
+    }
+  }
